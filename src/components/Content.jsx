@@ -22,7 +22,7 @@ const Content = () => {
             in seconds, completely for free.
           </p>
           <div className="flex justify-center gap-3 font-medium text-sm">
-            <button className="border-solid border-2 py-2.5  px-4 rounded-lg text-center duration-150 bg-slate-800 text-slate-100 hover:bg-gray-600 active:bg-gray-900">Generate your Qr Code and Short URL</button>
+            <Link to="/generator" className="border-solid border-2 py-2.5  px-4 rounded-lg text-center duration-150 bg-slate-800 text-slate-100 hover:bg-gray-600 active:bg-gray-900">Generate your Qr Code and Short URL</Link>
             <button className="border border-2 py-2.5 px-4 text-center rounded-lg text-slate-700 duration-150 hover:bg-gray-50 ">Learn More</button>
           </div>
         </div>

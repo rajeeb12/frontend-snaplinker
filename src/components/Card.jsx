@@ -10,7 +10,7 @@ const Card = ({id, url, downloadUrl}) => {
   const handleCopy = () => {
     if (inputRef.current) {
       navigator.clipboard
-        .writeText(inputRef.current.value)
+        .writeText(`https://api-slio-rajeebs-projects.vercel.app/${inputRef.current.value}`)
         .then(() => {
           setCopied(true);
           setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
