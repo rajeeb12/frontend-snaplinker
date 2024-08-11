@@ -21,8 +21,8 @@ export default function Generator() {
     console.log(data);
     try {
       const response = await axios.post(
-         `https://api-slio-rajeebs-projects.vercel.app/api/generate`,
-        // `http://localhost:4001/hit`,
+        "https://backend-snaplinker-1.onrender.com/api/generate",
+        // `http://localhost:4001/api/generate`,
         data
       );
       console.log(response.response);
