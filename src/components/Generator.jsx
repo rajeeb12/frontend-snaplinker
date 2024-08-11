@@ -21,7 +21,7 @@ export default function Generator() {
     console.log(data);
     try {
       const response = await axios.post(
-         `http://localhost:4001/api/generate`,
+         `https://api-slio-rajeebs-projects.vercel.app/api/generate`,
         // `http://localhost:4001/hit`,
         data
       );
